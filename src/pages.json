@@ -47,6 +47,14 @@
       }
     },
     {
+      "path": "pages/test",
+      "type": "page",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "Test"
+      }
+    },
+    {
       "path": "pages/about/about",
       "type": "page",
       "style": {

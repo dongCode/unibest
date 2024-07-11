@@ -27,6 +27,8 @@
       模板分支是：
       <text class="text-green-500">base</text>
     </view>
+
+    <view class="text-center mt-4" @click="handleTo">导航到Test</view>
   </view>
 </template>
 
@@ -47,6 +49,10 @@ const description = ref(
 onLoad(() => {
   console.log(author)
 })
+
+const handleTo = () => {
+  uni.navigateTo({ url: '/pages/test' })
+}
 </script>
 
 <style>
